@@ -1,5 +1,15 @@
-h1 {
-	background-color: blue;
-	padding: 10px;
-	color:white;
+.menu {
+	list-style-type: none;
+	font-family: Tahoma;
+}
+
+.menu li {
+	float:left;
+		padding:20px;
+}
+
+.menu a {
+	display:block;
+	text-decoration: none;
+	text-align: center;
 }
