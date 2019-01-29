@@ -41,10 +41,25 @@
 .search-form {
 	float:left;
 	border:1px solid blue;
-	height:23px;
-	margin-top: 22px;
+	height:25px;
+	margin-top: 25px;
 	margin-left: 20px;
 	color:blue;
 }
 
+.search-icon {
+	border:none;
+	background-color: blue;
+	width:20px;
+	height: 20px;
+	background-image: url("images/icon (4).png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 29px 0px 0px -25px;
+}
+
 input::-webkit-input-placeholder { color: blue; padding-left: 15px; }
+
+.bin {
+	margin-left: 30px;
+}
