@@ -1,15 +1,50 @@
 .menu {
-	list-style-type: none;
 	font-family: Tahoma;
+}
+
+.menu:after {
+	content: "";
+	display:block;
+	clear:both;
+}
+
+.logo {
+	float:left;
+	margin-top: 20px;
+	margin-right:70px;
 }
 
 .menu li {
 	float:left;
-		padding:20px;
+	padding:20px;
+	list-style-type: none;
 }
 
 .menu a {
 	display:block;
 	text-decoration: none;
 	text-align: center;
+	color:blue;
+	border-right: 1px solid blue;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 10px;
+	width:100px;
+	margin:0px -20px;
+	border-collapse: collapse;
 }
+
+.left-border {
+	border-left: 1px solid blue;
+}
+
+.search-form {
+	float:left;
+	border:1px solid blue;
+	height:23px;
+	margin-top: 22px;
+	margin-left: 20px;
+	color:blue;
+}
+
+input::-webkit-input-placeholder { color: blue; padding-left: 15px; }
