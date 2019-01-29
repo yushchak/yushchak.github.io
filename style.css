@@ -2,18 +2,16 @@
 	font-family: Tahoma;
 }
 
-.menu:after {
+.menu::after {
 	content: "";
-	display:block;
 	clear:both;
+	display:block;
 }
 
 .logo {
-	float:left;
-	margin-top: 20px;
-	margin-right:70px;
+	margin-left: 180px;
+	margin-right: 100px;
 }
-
 .menu li {
 	float:left;
 	padding:20px;
@@ -31,7 +29,6 @@
 	padding: 0px 10px;
 	width:100px;
 	margin:0px -20px;
-	border-collapse: collapse;
 }
 
 .left-border {
@@ -39,15 +36,15 @@
 }
 
 .search-form {
-	float:left;
+	display: block;
 	border:1px solid blue;
 	height:25px;
-	margin-top: 25px;
-	margin-left: 20px;
+	margin: 6px 0px 0px 20px;
 	color:blue;
 }
 
 .search-icon {
+	display:block;
 	border:none;
 	background-color: blue;
 	width:20px;
@@ -55,11 +52,7 @@
 	background-image: url("images/icon (4).png");
 	background-repeat: no-repeat;
 	background-position: center;
-	margin: 29px 0px 0px -25px;
+	margin:-24px 10px 0px 160px;
 }
 
 input::-webkit-input-placeholder { color: blue; padding-left: 15px; }
-
-.bin {
-	margin-left: 30px;
-}
