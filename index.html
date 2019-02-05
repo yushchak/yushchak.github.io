@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 </head>
 <body>
-	<ul class="menu">
-		<li><img src="images/icon (3).png"></li>
-		<li> <a href=""> Home </a></li>
-		<li class="submenu"> <a href="">Products</a></li>
-		<li> <a href=""> Payment</a></li>
-		<li><a href=""> Shipping</a></li>
-		<li> <input type="text" placeholder="search"></li>
-		<li> <img src="images/icon (1).png"></li>
-	</ul>
+    <header class="header">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-3">
+    				<div class="logo">
+    					<a href=""> <img src="images/icon (3).png" alt=""></a>
+    				</div>
+    			</div>
+    			<div class="col-md-6"> 
+    					<nav class="menu">
+    						<ul class="menu row">
+    							<li><a href="">Home</a></li>
+    							<li class="submenu-down"><a href="">Products</a>
+                                        <ul class="submenu">
+                                            <li><a href="">Lorem ipsum dolor</a></li>
+                                            <li><a href="">Sit amet</a></li>
+                                            <li><a href="">Consectectur adipicising </a></li>
+                                            <li><a href="">Tempor incididut</a></li>
+                                            <li><a href="">Dolore magna aliqua</a></li>
+                                            <li><a href="">Ut enim ad minim veniam</a></li>
+                                            <li><a href="">Quis nostrud</a></li>
+                                         </ul>
+
+                                </li>
+    							<li><a href="">Payment</a></li>
+    							<li><a href="">Shipping</a></li>
+    						  </ul>
+    					</nav>
+    			</div>
+    			<div class="col-md-3">
+                        <div class="search-form"> 
+                            <form class="row" method="get" action="">
+                            <input class="search-line" type="text" placeholder="search">
+                            <button class="search-button" type="submit" value=""></button>
+                            </form>
+                        </div>
+                        <div class="bin row"></div></div>           
+    			    		</div>
+    	</div>
+    </header>
+
+    <main class="main"></main>
+    <footer class="footer"></footer>
 </body>
 </html>
