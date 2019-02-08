@@ -347,6 +347,7 @@ input::-webkit-input-placeholder { color: #2c71b8; padding-left: 15px; font-size
 	font-size:50px;
 	font-weight: bold;
 	float:left;
+
 }
 .device-description-price-small {
 	float: left;
@@ -360,3 +361,12 @@ input::-webkit-input-placeholder { color: #2c71b8; padding-left: 15px; font-size
 	margin:10px;
 }
 
+.goods-button-details {
+	background-color:  #2c71b8;
+	border: 1px solid white;
+}
+
+.goods-button-add {
+	background-color: rgba(255,255,255,0.25);
+	border: 1px solid white;
+}
