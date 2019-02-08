@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
@@ -20,20 +21,64 @@
     					<nav class="menu">
     						<ul class="menu row">
     							<li><a href="">Home</a></li>
-    							<li><a href="">Products</a></li>
+    							<li class="submenu-down"><a href="">Products</a>
+                                        <ul class="submenu">
+                                            <li><a href="">Lorem ipsum dolor</a></li>
+                                            <li><a href="">Sit amet</a></li>
+                                            <li><a href="">Consectectur adipicising </a></li>
+                                            <li><a href="">Tempor incididut</a></li>
+                                            <li><a href="">Dolore magna aliqua</a></li>
+                                            <li><a href="">Ut enim ad minim veniam</a></li>
+                                            <li><a href="">Quis nostrud</a></li>
+                                         </ul>
+
+                                </li>
     							<li><a href="">Payment</a></li>
     							<li><a href="">Shipping</a></li>
-    						</ul>
+    						  </ul>
     					</nav>
     			</div>
     			<div class="col-md-3">
-    				<div class="cart">cart</div>
-    			</div>
-    		</div>
+                        <div class="search-form"> 
+                            <form class="row" method="get" action="">
+                            <input class="search-line" type="text" placeholder="search">
+                            <button class="search-button" type="submit" value=""></button>
+                            </form>
+                        </div>
+                        <div class="bin row"></div>
+                        <div class="counter">4</div>
+                </div>           
     	</div>
     </header>
-
-    <main class="main"></main>
+    <main class="main container">
+        <div class="slider"></div>
+        <div class="col-md-3">
+            <div class="sidebar">
+                    <p> DEVICE TYPE </p>
+                    <div class="checkbox">
+                        <label><input type="checkbox"/> Laptop </label>
+                        <br>
+                        <label><input type="checkbox"/> Tablet </label>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+                <div class="navigator"> 
+                    <a href="">Home page></a>
+                    <a href="">Products></a>
+                    <a href="">Laptops and tablets</a>
+                </div>
+                <div class="navigator goods-title">
+                    <p>Laptops and Tablets</p>
+                </div>
+                <div class="select-form"> 
+                    
+                 </div>
+            <div class="goods">
+                
+            </div>
+        </div>
+    </main>
     <footer class="footer"></footer>
 </body>
 </html>
