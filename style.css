@@ -259,3 +259,89 @@ input::-webkit-input-placeholder { color: #2c71b8; padding-left: 15px; font-size
 .third-item {
 	background-image: url("images/icon (13).png");
 }
+
+.fourth-item {
+	background-image: url("images/icon (16).png");
+}
+
+.fifth-item {
+	background-image: url("images/icon (14).png");
+}
+
+.sixth-item {
+	background-image: url("images/icon (12).png");
+}
+
+.seventh-item {
+	background-image: url("images/icon (15).png");
+}
+
+.image-items {
+	float:right;
+}
+
+.scale-item {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2c71b8;
+	margin: 10px;
+	background-image: url("images/icon (8).png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.like-item {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2c71b8;
+	margin:10px;
+	background-image: url("images/icon (5).png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.goods-info div{
+	padding:11px 10px 0px 10px;
+}
+
+.device-name {
+	color: white;
+	font-weight: bold;
+	font-size:30px;
+	margin-left: 5px;
+}
+
+[class*="device-description"] {
+	color:white;
+	font-size:20px;
+	margin-left: 5px;
+
+}
+
+.device-description {
+	line-height: 24px;
+}
+
+
+.device-description-short span {
+	font-weight: bold;
+	padding-top:20px;
+	line-height: 31px;
+}
+
+.device-description-price-big {
+	font-size:50px;
+	font-weight: bold;
+	float:left;
+}
+.device-description-price-small {
+	float: left;
+	font-size:30px;
+	font-weight: bold;
+}
+
+[class*="goods-button-"] {
+	width: 207px;
+	height: 50px;
+	margin:10px;
+}
+
