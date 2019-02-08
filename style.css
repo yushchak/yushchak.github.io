@@ -233,3 +233,16 @@ input::-webkit-input-placeholder { color: #2c71b8; padding-left: 15px; font-size
 .goods-item:last-child {
 	margin-right:0px;
 }
+
+.goods-image {
+	height: 180px;
+	line-height: 180px;
+	border-bottom: 1px solid white;
+	background-color: rgba(255,255,255,0.75);
+	text-align: center;
+
+}
+
+.goods-image img {
+	vertical-align: middle;
+}
