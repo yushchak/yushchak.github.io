@@ -8,8 +8,7 @@ body {
 }
 
 .container {
-	width:100%;
-	max-width:1170px;
+	width:1170px;
 	margin:0 auto;
 }
 
@@ -25,12 +24,12 @@ body {
 
 .col-md-3 {
 	width: 25%;
-
 }
 
 .col-md-6 {
 	width:50%;
 }
+
 
 .col-md-9 {
 	width:75%;
@@ -43,8 +42,7 @@ body {
 
 .logo {
 	padding-top: 10px;
-		margin-left: -30px;
-
+	margin-left: -30px;
 }
 .menu li {
 	float: left;
@@ -77,6 +75,11 @@ body {
 
 .search-line {
 	width: 200px;
+	margin-left: 20px;
+}
+
+.search-line {
+	width: 90%;
 	float:left;
 	margin: 5px 10px;
 	height: 40px;
@@ -86,6 +89,7 @@ body {
 }
 
 input::-webkit-input-placeholder { color: #2c71b8; padding-left: 15px; font-size:15px;}
+
 
 .search-button {
 	float:left;
@@ -130,6 +134,7 @@ input::-webkit-input-placeholder { color: #2c71b8; padding-left: 15px; font-size
 	margin-right: 10px;
 
 }
+
 .submenu-down {
 	position: relative;
 }
@@ -167,6 +172,7 @@ input::-webkit-input-placeholder { color: #2c71b8; padding-left: 15px; font-size
 	padding-top:20px;
 	height: 60px;
 }
+
 
 .slider {
 	height: 400px;
