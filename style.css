@@ -199,14 +199,79 @@ input::-webkit-input-placeholder { color: #2c71b8; padding-left: 15px; font-size
 .sidebar {
 	background-color: rgba(255,255,255,0.25);
 	color:white;
-	font-size: 15px;
 	padding:30px;
 	margin-right: 30px;
 	margin-left: -30px;
 	width:270px;
 	height: 840px;
+	font-size: 20px;
+	line-height: 35px;
 }
 
+.sidebar__content_bold {
+	font-weight: bold;
+}
+
+.sidebar__content_center-align {
+	text-align: center;
+}
+
+.sidebar__content_checkbox {
+	padding-bottom: 40px;
+	line-height: 37px;
+}
+
+.sidebar__content_checkbox input {
+	display: none;
+}
+
+.sidebar__content_checkbox label {
+	position: relative;
+	cursor: pointer;
+}
+
+ label:before {
+ 	content: "";
+ 	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid white;
+	top: 20px;
+}
+
+ label:after {
+ 	content: "";
+ 	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid white;
+	background-color: white;
+	position: absolute;
+	left:0px;
+	top:7px;
+}
+
+.sidebar__content_checkbox input[type="checkbox"] + label::after {
+    content: none;
+}
+
+.sidebar__content_checkbox input[type="checkbox"]:checked + label::after {
+    content: "";
+}
+
+.sidebar__submit-button {
+	width: 207px;
+	height: 50px;
+	background-color:  #2c71b8;
+	border: 1px solid white;
+	margin-top: 20px;
+	color:white;
+	font-size: 20px;
+}
+
+.sidebar__submit-button:hover {
+	background-color: rgba(255,255,255,0.05);
+}
 
 .navigator {
 	width: 600px;
@@ -408,6 +473,9 @@ input::-webkit-input-placeholder { color: #2c71b8; padding-left: 15px; font-size
 }
 
 .load-more {
-	height: 30px;
+	height: 150px;
 	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding: 50px;
 }
